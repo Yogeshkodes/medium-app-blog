@@ -1,12 +1,11 @@
 {
-  "name": "yogeshkodes-medium",
+  "name": "@yogeshkodes/medium",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "zod validation for backend and frontend",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

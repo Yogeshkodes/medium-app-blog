@@ -2,7 +2,8 @@ import { Hono } from "hono";
 import { PrismaClient } from "@prisma/client/edge";
 import { withAccelerate } from "@prisma/extension-accelerate";
 import { sign, verify } from "hono/jwt";
-import { createBlogInput, updateBlogInput } from "yogeshkodes-medium";
+//@ts-ignore
+import { createBlogInput, updateBlogInput } from "@yogeshkodes/medium";
 export const blogRouter = new Hono<{
   Bindings: {
     JWT_SECRET: string;
